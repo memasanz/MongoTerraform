@@ -11,7 +11,7 @@ terraform {
 
 provider "azurerm" {
   subscription_id = "${var.subscription_id}"
-  tenant_id       = "150e302b-984e-491f-a34e-758d0390a174"
+  tenant_id       = "xxxx-xxxx-xxxx-xxx-xxxx"
   environment     = "usgovernment"
   features {}
 }
